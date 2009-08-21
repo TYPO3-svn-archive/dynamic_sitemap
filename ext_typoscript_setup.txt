@@ -1,0 +1,2 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:dynamic_sitemap/Configuration/TypoScript/xml.txt">
+
