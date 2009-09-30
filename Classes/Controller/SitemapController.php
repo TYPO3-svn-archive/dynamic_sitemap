@@ -14,7 +14,7 @@ class Tx_DynamicSitemap_Controller_SitemapController extends Tx_Extbase_MVC_Cont
 		$sitemap = array();
 		$pageChanges = array();
 		$this->view->assign('baseUrl', $GLOBALS['TSFE']->tmpl->setup['config.']['baseURL']);
-		$config = Tx_Extbase_Utility_TypoScript::convertExtbaseToClassicTS($this->settings);
+		$config = Tx_Extbase_Utility_TypoScript::convertPlainArrayToTypoScriptArray($this->settings);
 
 		foreach ($config as $key => $value) {
 
