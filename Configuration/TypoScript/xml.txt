@@ -12,6 +12,7 @@ xml {
 		pluginName = Pi1
 		extensionName = DynamicSitemap
 		controller = Sitemap
+		settings = < plugin.tx_dynamicsitemap.settings
 	}
 	typeNum = 1250864821
 }
